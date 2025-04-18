@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>スロットマシン</title>
-    <link rel="stylesheet" href="style1.css">
-    <link rel="icon" href="images/slotImg.ico">
-</head>
-<body>
-    <h1>🎰 あやスロット 🎰</h1>
-    <h2>確率は 1/25</h2>
-    <div id="slot-container">
-        <div class="slot"><img src="images/aya1.jpg" alt="slot"></div>
-        <div class="slot"><img src="images/aya1.jpg" alt="slot"></div>
-        <div class="slot"><img src="images/aya1.jpg" alt="slot"></div>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="icon" href="images/slotImg.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎰 スロットマシン 🎰</h1>
+      <h2>確率は <span class="highlight">1/25</span></h2>
+
+      <div class="theme-select">
+        <label for="theme">🎨 テーマを選ぶ:</label>
+        <select id="theme">
+          <option value="pokemon">ポケモン</option>
+          <option value="disney">ディズニー</option>
+          <option value="aya">あや</option>
+        </select>
+      </div>
+
+      <div id="slot-container">
+        <div class="slot"><img src="images/pokemon/pikachu.png" alt="slot" /></div>
+        <div class="slot"><img src="images/pokemon/pikachu.png" alt="slot" /></div>
+        <div class="slot"><img src="images/pokemon/pikachu.png" alt="slot" /></div>
+      </div>
+
+      <button id="start-btn">🎯 スタート！</button>
+      <p id="result"></p>
     </div>
-    <button id="start-btn">スタート</button>
-    <p id="result"></p>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
