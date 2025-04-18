@@ -29,7 +29,7 @@ body {
   #slot-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     font-size: 60px;
     margin-bottom: 20px;
   }
