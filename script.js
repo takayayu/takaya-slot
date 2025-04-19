@@ -14,7 +14,7 @@ const themes = {
   pokemon: [
     "images/pokemon/pikachu.png",
     "images/pokemon/gengar.png",
-    "images/pokemon/myu.png",
+    "images/pokemon/eneko.png",
     "images/pokemon/ru-jura.png",
     "images/pokemon/kekking.png",
   ],
@@ -31,6 +31,13 @@ const themes = {
     "images/aya/aya3.jpg",
     "images/aya/aya4.jpg",
     "images/aya/aya5.jpg",
+  ],
+  kotetu: [
+    "images/kotetu/tin1.png",
+    "images/kotetu/tin2.png",
+    "images/kotetu/tin3.png",
+    "images/kotetu/tin4.png",
+    "images/kotetu/tin5.png",
   ],
 };
 
