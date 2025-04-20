@@ -12,18 +12,18 @@ let currentImages = [];
 
 const themes = {
   maruChild: [
-    "images/maruChild/maru1.jpg",
-    "images/maruChild/maru2.jpg",
-    "images/maruChild/maru3.jpg",
-    "images/maruChild/maru4.jpg",
-    "images/maruChild/maru5.jpg",
+    "images/maruChild/maru1.JPG",
+    "images/maruChild/maru2.JPG",
+    "images/maruChild/maru3.JPG",
+    "images/maruChild/maru4.JPG",
+    "images/maruChild/maru5.JPG",
   ],
   maruAdult: [
-    "images/maruAdult/maru6.jpg",
-    "images/maruAdult/maru7.jpg",
-    "images/maruAdult/maru8.jpg",
-    "images/maruAdult/maru9.jpg",
-    "images/maruAdult/maru10.jpg",
+    "images/maruAdult/maru6.JPG",
+    "images/maruAdult/maru7.JPG",
+    "images/maruAdult/maru8.JPG",
+    "images/maruAdult/maru9.JPG",
+    "images/maruAdult/maru10.JPG",
   ],
 
 };
