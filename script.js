@@ -11,34 +11,21 @@ const themeSelect = document.getElementById("theme");
 let currentImages = [];
 
 const themes = {
-  pokemon: [
-    "images/pokemon/pikachu.png",
-    "images/pokemon/gengar.png",
-    "images/pokemon/eneko.png",
-    "images/pokemon/ru-jura.png",
-    "images/pokemon/kekking.png",
+  maruChild: [
+    "images/maruChild/maru1.jpg",
+    "images/maruChild/maru2.jpg",
+    "images/maruChild/maru3.jpg",
+    "images/maruChild/maru4.jpg",
+    "images/maruChild/maru5.jpg",
   ],
-  disney: [
-    "images/disney/mickey.png",
-    "images/disney/miney.png",
-    "images/disney/donald.png",
-    "images/disney/goofy.png",
-    "images/disney/chip-dale.png",
+  maruAdult: [
+    "images/maruAdult/maru6.jpg",
+    "images/maruAdult/maru7.jpg",
+    "images/maruAdult/maru8.jpg",
+    "images/maruAdult/maru9.jpg",
+    "images/maruAdult/maru10.jpg",
   ],
-  aya: [
-    "images/aya/aya1.jpg",
-    "images/aya/aya2.jpg",
-    "images/aya/aya3.jpg",
-    "images/aya/aya4.jpg",
-    "images/aya/aya5.jpg",
-  ],
-  kotetu: [
-    "images/kotetu/tin1.png",
-    "images/kotetu/tin2.png",
-    "images/kotetu/tin3.png",
-    "images/kotetu/tin4.png",
-    "images/kotetu/tin5.png",
-  ],
+
 };
 
 // テーマが変更されたら画像セットを更新
